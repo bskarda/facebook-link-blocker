@@ -5,6 +5,14 @@ Currently it simply hides the offending div's so they are still in the source if
 you really need to see them. Only the offending links, images, and captions are
 removed. Their posters and comments are left in place.
 
+##Install
+
+* Clone this repo onto your computer
+* Chrome -> 3-bar menu -> Tools -> Extensions
+* Check developer mode
+* Load unpacked extension
+* Navigate to the repo
+
 ##TODO
 
 * Add to Chrome Plugin Repository (eventually)
