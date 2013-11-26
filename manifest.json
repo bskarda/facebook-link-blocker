@@ -1,0 +1,14 @@
+{
+  "manifest_version": 2,
+
+  "name": "Facebook External Link Blocker",
+  "description": "This extension will block all external links from facebook's news feed.",
+  "version": "0.1",
+
+  "content_scripts": [
+    {
+      "matches": ["https://www.facebook.com/*"],
+      "js": ["jquery.js", "fb_ext_link_block.js"]
+    }
+  ]
+}
